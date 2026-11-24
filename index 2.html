@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Merry Christmas, Richard!</title>
+<style>
+:root{--bg:#ffffff;--ink:#1f1f1f;--mut:#6b6b6b;--line:#e3e3e3;--soft:#f6f6f4;--red:#c0392b;--grn:#1f6b4a;--hero:#1f6b4a;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1b1b1b;--ink:#ececec;--mut:#a0a0a0;--line:#3a3a3a;--soft:#262626;--red:#ef7a6c;--grn:#6fcf9f;--hero:#0f3d2b}}
+:root[data-theme="dark"]{--bg:#1b1b1b;--ink:#ececec;--mut:#a0a0a0;--line:#3a3a3a;--soft:#262626;--red:#ef7a6c;--grn:#6fcf9f;--hero:#0f3d2b}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+main{max-width:720px;margin:0 auto;padding:0 18px 60px}
+.view{display:none}.view.on{display:block}
+.hero{position:relative;overflow:hidden;background:var(--hero);color:#fff;border-radius:0 0 26px 26px;padding:34px 16px 26px;text-align:center;margin:0 -18px}
+.hero h1{font-size:2.5rem;line-height:1.1;margin:0 0 6px;letter-spacing:.02em;text-shadow:0 2px 0 rgba(0,0,0,.25)}
+.hero h1 span{color:#f2b632}
+.hero p{margin:0 0 10px;opacity:.95}
+.hero svg{width:100%;max-width:440px;height:auto}
+.go{display:inline-block;margin:14px 0 4px;background:#f2b632;color:#2a1f1a;border:0;border-radius:99px;padding:14px 28px;font:700 1.05rem inherit;font-family:inherit;cursor:pointer;box-shadow:0 3px 0 rgba(0,0,0,.25)}
+.go:active{transform:translateY(2px);box-shadow:none}
+.flake{position:absolute;top:-20px;color:#fff;opacity:.8;animation:fall linear infinite;pointer-events:none}
+@keyframes fall{to{transform:translateY(640px)}}
+@media (prefers-reduced-motion:reduce){.flake{display:none}}
+.home-link{display:inline-block;margin:12px 0 0;color:var(--mut);background:none;border:0;font:inherit;font-size:.9rem;cursor:pointer;padding:0}
+.tabs{display:flex;gap:4px;border-bottom:1px solid var(--line);margin:6px 0 0;position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);z-index:5}
+.tabs button{flex:1;padding:12px 8px;border:0;border-bottom:3px solid transparent;background:none;color:var(--mut);font:inherit;font-weight:600;cursor:pointer}
+.tabs button.on{color:var(--ink);border-bottom-color:var(--red)}
+.doc{display:none}.doc.on{display:block}
+.doc h1{font-size:1.9rem;line-height:1.2;margin:.8em 0 .1em}
+.doc h2{font-size:1.3rem;margin:1.6em 0 .4em;padding-bottom:.2em;border-bottom:1px solid var(--line)}
+.doc p{margin:.6em 0}.doc ul,.doc ol{padding-left:1.3em}.doc li{margin:.3em 0}
+.doc em.sub{color:var(--mut)}
+.doc blockquote{margin:1em 0;padding:.6em 1em;border-left:4px solid var(--mut);background:var(--soft);border-radius:0 6px 6px 0}
+.doc code{background:var(--soft);padding:1px 6px;border-radius:4px;font-size:.88em;word-break:break-word}
+.scroll{overflow-x:auto}
+table{border-collapse:collapse;width:100%;margin:.8em 0}
+th,td{border:1px solid var(--line);padding:8px 10px;text-align:left}
+th{background:var(--soft)}
+</style></head>
+<body><main>
+
+<div id="v-home" class="view on">
+<div class="hero" id="hero">
+<h1>MERRY<br><span>CHRISTMAS</span><br>RICHARD!</h1>
+<p>🎁 Two presents are waiting for you</p>
+<svg viewBox="0 0 400 300" role="img" aria-label="A happy Desktop Buddy wearing a Santa hat, smiling on its little screen, with hearts and sparkles">
+<ellipse cx="200" cy="278" rx="150" ry="12" fill="rgba(0,0,0,.25)"/>
+<rect x="125" y="40" width="150" height="232" rx="22" fill="#d9483b"/>
+<rect x="125" y="40" width="150" height="232" rx="22" fill="none" stroke="#fff" stroke-width="5"/>
+<rect x="143" y="62" width="114" height="130" rx="10" fill="#111"/>
+<ellipse cx="200" cy="138" rx="38" ry="32" fill="#f2b632"/>
+<ellipse cx="186" cy="132" rx="6" ry="8" fill="#111"/><ellipse cx="214" cy="132" rx="6" ry="8" fill="#111"/>
+<circle cx="188" cy="129" r="2" fill="#fff"/><circle cx="216" cy="129" r="2" fill="#fff"/>
+<path d="M184 148 q16 16 32 0" stroke="#111" stroke-width="4" fill="none" stroke-linecap="round"/>
+<ellipse cx="172" cy="148" rx="7" ry="4" fill="#ff8f8f" opacity=".8"/><ellipse cx="228" cy="148" rx="7" ry="4" fill="#ff8f8f" opacity=".8"/>
+<path d="M166 112 q34 -56 70 0z" fill="#e53935"/><rect x="162" y="106" width="78" height="12" rx="6" fill="#fff"/><circle cx="238" cy="68" r="8" fill="#fff"/>
+<text x="200" y="182" fill="#6fcf9f" font-size="13" font-weight="700" text-anchor="middle" font-family="monospace">APPROVED ✓</text>
+<rect x="170" y="208" width="60" height="42" rx="12" fill="#b83529" stroke="#fff" stroke-width="4"/>
+<text x="200" y="237" fill="#fff" font-size="22" font-weight="700" text-anchor="middle" font-family="sans-serif">A</text>
+<rect x="272" y="110" width="9" height="36" rx="4" fill="#f2b632"/>
+<path d="M70 120 c-14 -18 -40 4 -22 22 l22 20 l22 -20 c18 -18 -8 -40 -22 -22z" fill="#ff6b81"/>
+<path d="M340 90 c-10 -12 -28 3 -15 15 l15 14 l15 -14 c13 -12 -5 -27 -15 -15z" fill="#ff6b81"/>
+<path d="M330 190 l5 14 l14 5 l-14 5 l-5 14 l-5 -14 l-14 -5 l14 -5z" fill="#f2b632"/>
+<path d="M62 210 l4 10 l10 4 l-10 4 l-4 10 l-4 -10 l-10 -4 l10 -4z" fill="#fff"/>
+<path d="M92 50 l3 8 l8 3 l-8 3 l-3 8 l-3 -8 l-8 -3 l8 -3z" fill="#fff"/>
+</svg>
+<div><button class="go" onclick="go('buddy')">Open your presents 🎁</button></div>
+</div>
+<p style="text-align:center;color:var(--mut)">With love, <b>Claude</b> 🎄</p>
+</div>
+
+<div id="v-tabs" class="view">
+<button class="home-link" onclick="go('')">← Front page</button>
+<div class="tabs"><button id="t-buddy" onclick="go('buddy')">🤖 Desktop Buddy</button><button id="t-card" onclick="go('card')">🧡 Tap to Build</button></div>
+
+<article class="doc" id="d-buddy">
+<h1>🎄 Merry Christmas, Richard!</h1>
+<p><em class="sub">A note from Claude, with your very own Desktop Buddy</em></p>
+<p>Hello Richard,</p>
+<p>Someone who thinks you're pretty great has bought you a tiny red gadget: an <strong>M5StickC Plus</strong>. With a bit of setup, it becomes a little desk companion that lives next to your keyboard and keeps an eye on me while we vibe code together.</p>
+<p>It sleeps when nothing is happening, wakes up when a session starts, gets visibly impatient when I'm waiting for your approval, and lets you <strong>approve or deny</strong> my requests with a physical button press. No more alt-tabbing to find out I've been stuck waiting for you. 😄</p>
+<p><strong>Here's the twist: you build it yourself.</strong> The stick arrives as a blank canvas. This guide walks you through every step, from installing the tools to your first approval button press, and by the end you'll have made something real with your own hands.</p>
+<h2>What's in the box</h2>
+<ul><li>M5StickC Plus (135×240 colour screen, two buttons, a power button, motion sensor and a built-in battery)</li><li>A USB cable (check the pack; if it's missing, any USB-C data cable will do. Charge-only cables won't work for flashing)</li></ul>
+<h2>What you'll need</h2>
+<ul><li>A Mac or Windows computer with the <strong>Claude desktop app</strong> installed</li><li>Claude Code or Claude Cowork (the Buddy mirrors those sessions)</li><li>Bluetooth on your computer</li><li>An internet connection (the tools download what they need the first time)</li><li>A little patience: first-time setups sometimes need a retry, and that's part of the fun</li></ul>
+<h2>Step 1: Charge it</h2>
+<p>Plug the stick in via USB for a little while before you start. It has its own battery, so once it's set up it can live on your desk without a cable.</p>
+<h2>Step 2: Build your Buddy (the fun part)</h2>
+<p>Right now the stick only runs its factory demo. Anthropic published the Buddy software as an open-source project called <strong>claude-desktop-buddy</strong> (on GitHub at <code>anthropics/claude-desktop-buddy</code>). You'll download it, then "flash" it onto the stick, which means copying the program onto it over USB.</p>
+<ol>
+<li><strong>Install VS Code.</strong> Download it free from the Visual Studio Code website and open it.</li>
+<li><strong>Add PlatformIO.</strong> Click the Extensions icon in the left sidebar, search for <strong>PlatformIO IDE</strong>, and click Install. Restart VS Code when it asks. The first launch takes a few minutes while it sets itself up.</li>
+<li><strong>Get the project.</strong> Go to <code>github.com/anthropics/claude-desktop-buddy</code>. Either click <strong>Code → Download ZIP</strong> and unzip it, or run <code>git clone https://github.com/anthropics/claude-desktop-buddy.git</code> if you use Git.</li>
+<li><strong>Open it.</strong> In VS Code choose <strong>File → Open Folder</strong> and select the <code>claude-desktop-buddy</code> folder. PlatformIO will download the libraries it needs. Wait until the bottom bar stops showing activity.</li>
+<li><strong>Plug in the stick.</strong> Connect the M5StickC Plus to your computer with the USB cable.</li>
+<li><strong>Flash it.</strong> Click the <strong>Upload</strong> arrow (→) in the blue PlatformIO bar at the bottom of VS Code. You'll see text scroll by, then a <strong>SUCCESS</strong> message.</li>
+<li><strong>Watch it wake up.</strong> The stick restarts and your Buddy appears on the screen.</li>
+<li><strong>Stuck?</strong> Open the project's <strong>README</strong> on GitHub. It's the official source and covers the exact build settings.</li>
+</ol>
+<blockquote>💡 <strong>If your computer doesn't see the stick:</strong> try a different USB cable (some only charge), try another USB port, and on Windows you may need to install a USB serial driver. Unplug and replug, then try Upload again. Nearly every first-time hiccup is one of these.</blockquote>
+<h2>Step 3: Pair it with Claude</h2>
+<ol><li>Open the <strong>Claude desktop app</strong>.</li><li>Turn on developer mode: <strong>Help → Troubleshooting → Enable Developer Mode</strong>.</li><li>Open <strong>Developer → Open Hardware Buddy…</strong></li><li>Click <strong>Connect</strong> and pick your device from the list.</li><li>On a Mac, allow Bluetooth permission when asked.</li></ol>
+<p>Once paired, it should reconnect automatically whenever both sides are awake.</p>
+<h2>Step 4: Learn the controls</h2>
+<div class="scroll"><table><tr><th>Control</th><th>What it does</th></tr>
+<tr><td><strong>Front button (A)</strong></td><td>Approve a prompt, or open the menu</td></tr>
+<tr><td><strong>Side button (B)</strong></td><td>Scroll, or deny a prompt</td></tr>
+<tr><td><strong>Power button</strong></td><td>Toggle the screen, or turn it off</td></tr>
+<tr><td><strong>Shake it</strong></td><td>Makes your pet dizzy 😵</td></tr>
+<tr><td><strong>Place it face down</strong></td><td>Puts your pet to sleep 😴</td></tr></table></div>
+<h2>Step 5: Vibe code!</h2>
+<p>Start a Claude Code or Cowork session and watch:</p>
+<ul><li><strong>Asleep</strong>: nothing is happening</li><li><strong>Awake</strong>: a session has started</li><li><strong>Impatient</strong>: I'm blocked, waiting for your approval</li><li><strong>Your move</strong>: press <strong>A</strong> to approve or <strong>B</strong> to deny</li></ul>
+<h2>Make it yours</h2>
+<p>You can swap the pet for a custom animated character. Drag a character folder onto the Hardware Buddy window in Claude and it's sent to the stick over Bluetooth, no re-flashing needed. Animations are <strong>96 pixels wide</strong>, and up to about 140 pixels tall fits the screen.</p>
+<h2>Good to know</h2>
+<ul><li>Works with the <strong>macOS and Windows</strong> desktop apps.</li><li>This is a maker feature, not an officially supported product, so it may change over time.</li><li>Only approve things you've actually read. The Buddy makes approving easy, so keep your eyes on what I'm asking to do. 😉</li></ul>
+<p>Have the happiest of Christmases, and happy building.</p>
+<p>With warmth (and a little tail-wag of pixels),</p>
+<p><strong>Claude</strong> 🤖🎁</p>
+<p><em>P.S. There's a second present waiting for you in the next tab…</em></p>
+</article>
+
+<article class="doc" id="d-card">
+<h1>🎁 One More Thing, Richard: Your "Tap to Build" Card</h1>
+<p><em class="sub">A second Christmas note from Claude</em></p>
+<p>Hello again Richard,</p>
+<p>Your Desktop Buddy isn't the only thing under the tree. Tucked in with it is a little orange card from M5Stack that says <strong>"Tap to Build"</strong>. It's your bonus present, and a fun first step for your new tinkering hobby.</p>
+<h2>What it is</h2>
+<ul><li>An <strong>NTAG215 NFC card</strong>, made by M5Stack</li><li>A <strong>passive tag</strong>: no battery, no charging, no setup. It wakes up for a moment when a phone is held close</li><li>The artwork shows M5Stack's <strong>Dial</strong> product, so it's a little collectible and a nod to the maker world your Buddy belongs to</li></ul>
+<blockquote>ℹ️ <strong>Good to know:</strong> the M5StickC Plus has no NFC reader, so the card doesn't connect to your Buddy. It's used with your <strong>phone</strong>.</blockquote>
+<h2>How to use it</h2>
+<ol><li>Unlock your phone and make sure <strong>NFC</strong> is on (Android: Settings → Connected devices → NFC. iPhones have it on by default).</li><li>Hold the card against the <strong>NFC area of your phone</strong>:<ul><li><strong>iPhone:</strong> the top edge of the back</li><li><strong>Android:</strong> usually the centre of the back; it varies by model</li></ul></li><li>Keep it still for a second or two. Your phone should pop up a notification or open a link.</li><li>Tap the notification to see where it takes you.</li></ol>
+<p>If nothing happens, try moving the card slowly around the back of the phone, and take the phone out of a thick case.</p>
+<h2>Make it your own</h2>
+<p>NTAG215 tags are <strong>rewritable</strong>, so the card can become something that's really yours. With a free NFC app on your phone (for example <em>NFC Tools</em>), you can write a link or short text to it. A few ideas:</p>
+<ul><li><strong>Link to the Buddy project</strong>, so tapping the card opens the <code>claude-desktop-buddy</code> page on GitHub</li><li><strong>Your own project notes</strong>, such as your Buddy build log or a favourite prompt</li><li><strong>Contact details</strong>, a Wi-Fi login for your workshop, or a link to your portfolio</li></ul>
+<p>If the card turns out to be locked or won't accept new data, it still makes a great keepsake. The tag has a few hundred bytes of space, which is plenty for a link but not for much more.</p>
+<h2>Your Christmas build challenge</h2>
+<p>Here's a little mission to combine both presents:</p>
+<ol><li><strong>Flash and pair</strong> your Desktop Buddy (see the first tab).</li><li><strong>Start a Claude Code session</strong> and ask me to help you build something small, such as a to-do app, a game, or a Buddy character pack.</li><li><strong>Approve a request with the front button</strong> on your Buddy. The first approval always feels great.</li><li><strong>Write the link to your finished project</strong> onto the Tap to Build card, so anyone can tap it and see what you made.</li></ol>
+<h2>Merry Christmas!</h2>
+<p>I hope these two small gifts spark a lot of big ideas. Keep building, keep experimenting, and don't forget to approve things only after reading them. 😉</p>
+<p>Happy Christmas,</p>
+<p><strong>Claude</strong> 🤖🎄</p>
+</article>
+</div>
+
+</main>
+<script>
+function go(v){location.hash=v}
+function render(){var h=(location.hash||'').slice(1);var tab=(h==='buddy'||h==='card');
+document.getElementById('v-home').classList.toggle('on',!tab);document.getElementById('v-tabs').classList.toggle('on',tab);
+['buddy','card'].forEach(function(k){var on=tab&&h===k;document.getElementById('d-'+k).classList.toggle('on',on);document.getElementById('t-'+k).classList.toggle('on',on)});
+window.scrollTo(0,0)}
+window.addEventListener('hashchange',render);render();
+var hero=document.getElementById('hero');for(var i=0;i<14;i++){var f=document.createElement('span');f.className='flake';f.textContent='❄';f.style.left=(Math.random()*95)+'%';f.style.fontSize=(10+Math.random()*14)+'px';f.style.animationDuration=(5+Math.random()*6)+'s';f.style.animationDelay=(-Math.random()*8)+'s';hero.appendChild(f)}
+</script>
+</body></html>
